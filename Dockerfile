@@ -21,5 +21,3 @@ RUN apt-get install -y git
 
 # install nano
 RUN apt-get install -y vim
-
-CMD ["mvn"]
