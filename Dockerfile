@@ -19,5 +19,5 @@ RUN apt-get update
 # install git
 RUN apt-get install -y git
 
-# install nano
+# install vim
 RUN apt-get install -y vim
