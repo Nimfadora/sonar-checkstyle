@@ -21,3 +21,5 @@ RUN apt-get install -y git
 
 # install vim
 RUN apt-get install -y vim
+
+# Build image by "docker build -t sonarqube-maven-git ."
