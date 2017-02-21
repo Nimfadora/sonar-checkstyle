@@ -23,3 +23,5 @@ RUN apt-get install -y git
 RUN apt-get install -y vim
 
 # Build image by "docker build -t sonarqube-maven-git ."
+# run it as "docker run -d --name sonarqube-maven-git -p 9000:9000 -p 9092:9092 sonarqube-maven-git"
+# step inside "docker exec -i -t sonarqube-maven-git /bin/bash"
